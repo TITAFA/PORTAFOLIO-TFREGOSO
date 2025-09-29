@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+body {
+    background-color: rgba(252, 185, 218, 0.378);
+}
+h1{
+    font-family:"Oswald", sans-serif;
+   
+}
+P{
+    font-family: "Quicksand", sans-serif;
+}
+header{
+    text-align: center;
+  border-bottom: solid 4px rgb(255, 255, 255);
+  margin-bottom : 30px; /*MARGEN INFERIOR */
+  padding: 20px; /*ESPACIADO INTERNO */
+}
