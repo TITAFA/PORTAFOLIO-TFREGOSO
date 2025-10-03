@@ -15,3 +15,13 @@ header{
   margin-bottom : 30px; /*MARGEN INFERIOR */
   padding: 20px; /*ESPACIADO INTERNO */
 }
+#foto-perfil{
+   border-radius: 20px;
+}
+article{
+    border: solid white 6px;
+    width: 30%;
+   float: left;
+}
+
+footer
