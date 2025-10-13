@@ -1,27 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: auto;
+}
+
 body {
     background-color: rgba(252, 185, 218, 0.378);
 }
-h1{
-    font-family:"Oswald", sans-serif;
-   
-}
-P{
-    font-family: "Quicksand", sans-serif;
-}
-header{
-    text-align: center;
-  border-bottom: solid 4px rgb(255, 255, 255);
-  margin-bottom : 30px; /*MARGEN INFERIOR */
-  padding: 20px; /*ESPACIADO INTERNO */
-}
-#foto-perfil{
-   border-radius: 20px;
-}
-article{
-    border: solid white 6px;
-    width: 30%;
-   float: left;
+
+h1 {
+    font-family: "Oswald", sans-serif;
+
 }
 
-footer
+P {
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    text-align: center;
+    border: solid 4px pink;
+    padding: 20px;
+    /*ESPACIADO INTERNO */
+}
+
+#menu-principal {
+    background-color: rgb(241, 214, 178);
+    padding: 10 px 20px;
+    text-align: center;
+}
+
+#menu-principal ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-principal a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#menu-principal a:hover {
+    background-color: rgb(132, 148, 251);
+    color: white
+}
+}
+
+#bienvenida {
+    background-color: rgb(255, 255, 206);
+    padding: 30px 0;
+}
+
+#foto-perfil {
+    border-radius: 20px;
+}
+
+#experiencia {
+    background-color: rgb(228, 228, 242);
+}
+
+#lista-proyectos {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    border: solid black 2px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#habilidades {
+    padding: 20px 30px;
+    background-color: #fff;
+
+}
+
+.Lista-tecnologías {
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    gap: 20px;
+}
+
+.Lista-tecnologías li {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+progress {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    background-color: black;
+}
+
+#contacto {
+    padding: 30px 20px;
+    background-color: white;
+    border-top: solid 5px black;
+}
+
+#contacto label {
+    font-size: 20px;
+}
+
+#contacto input,textarea {
+    font-size: 20px;
+    border: solid 1px black;
+    padding: 10px 
+    width:30%; 
+}
+.campos {
+clear: both;
+padding-top: 20px;}
+
+#contacto button {
+   background-color:rgb(105, 42, 105) ;
+   color: white;
+   padding: 20px 30px;
+   border-radius: 10px;
+   border: none;
+   width: 200px; 
+   font-size: 20px;
+}

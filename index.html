@@ -16,12 +16,14 @@
             <p>Desarrolladora fullstack | Estudiante de Ingenieria en TI </p>
     </header>
     <!-- CREANDO UN MENÚ DE NAVEGACIÓN-->
-    <nav>
-        <!--CREA ENLACES-->
-        <a href="index.html">Inicio</a> <!--ETIQUETA PARA ENLACES-->
-        <a href="sobre_mi.html">Sobre mí</a>
-        <a href="proyectos.html">Proyectos</a>
-        <a href="contacto.html">Contacto</a>
+    <nav id="menu-principal">
+        <ul>
+            <li><a href="#Bienvenida" Sobre mi</a></li><!--CREA ENLACES-->
+            <li><a href="#experiencia">Mi experiencia</a></li>
+            <li><a href="#">Contactame</a>contacto</li>
+            <li><a href="#habilidades">Habilidades</a></li>
+                    
+        </ul>
     </nav>
 
     <!--PARTE PRINCIPAL-->
@@ -42,44 +44,96 @@
         </section>
         <h2>Experiencia Profesional</h2>
         <article>
-            <h3>Proyecto Integrador I  </h3>
-            <p>Lorem ipsum is simply dummy text of the printing</p>
-            <time> datetime= "2025-05>Mayo 2025" </time>- <time> datetime= "2025-07">Julio 2025 </time>
-            <ul>
-                <li> Tecnologías.NET </li>
-                <li> Gestión de Inventarios</li>
-                <li> Basado en la ODS </li>
-                <li> Trabajo en equipo</li>
+            <section>
+                <h3>Proyecto Integrador I </h3>
+                <p>Lorem ipsum is simply dummy text of the printing</p>
+                <time> datetime= "2025-05>Mayo 2025" </time>- <time> datetime= "2025-07">Julio 2025 </time>
+                <ul>
+                    <li> Tecnologías.NET </li>
+                    <li> Gestión de Inventarios</li>
+                    <li> Basado en la ODS </li>
+                    <li> Trabajo en equipo</li>
+                </ul>
+        </article>
+        </section>
+        <article>
+            <section>
+
+                <h3>Proyecto Integrador II </h3>
+                <p>Lorem ipsum is simply dummy text of the printing</p>
+                <time> datetime= "2025-05>Mayo 2025" </time>- <time> datetime= "2025-07">Julio 2025 </time>
+                <ul>
+                    <li> Tecnologías.NET </li>
+                    <li> Gestión de Inventarios</li>
+                    <li> Basado en la ODS </li>
+                    <li> Trabajo en equipo</li>
+                </ul>
+        </article>
+        </section>
+        <article>
+            <section>
+
+                <h3>Proyecto Integrador III </h3>
+                <p>Lorem ipsum is simply dummy text of the printing</p>
+                <time> datetime= "2025-04> Abril 2025" </time>- <time> datetime= "2025-2" > Febrero 2025 </time>
+                <ul>
+                    <li> Tecnologías.NET </li>
+                    <li> Gestión de Inventarios</li>
+                    <li> Basado en la ODS </li>
+                    <li> Trabajo en equipo</li>
+                </ul>
+        </article>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades y competencias</h2>
+            <h3>Lenguajes y tecnologías</h3>
+            <ul class="Lista-tecnologías">
+                <li> HTML5 </li>
+                <li> CSS </li>
+                <li> JavaScript </li>
+                <li> C# </li>
             </ul>
-            </article>
-              <article>
-            <h3>Proyecto Integrador II  </h3>
-            <p>Lorem ipsum is simply dummy text of the printing</p>
-            <time> datetime= "2025-05>Mayo 2025" </time>- <time> datetime= "2025-07">Julio 2025 </time>
-            <ul>
-                <li> Tecnologías.NET </li>
-                <li> Gestión de Inventarios</li>
-                <li> Basado en la ODS </li>
-                <li> Trabajo en equipo</li>
-            </ul>
-            </article>
-              <article>
-            <h3>Proyecto Integrador III  </h3>
-            <p>Lorem ipsum is simply dummy text of the printing</p>
-            <time> datetime= "2025-04> Abril 2025" </time>- <time> datetime= "2025-2" > Febrero 2025 </time>
-            <ul>
-                <li> Tecnologías.NET </li>
-                <li> Gestión de Inventarios</li>
-                <li> Basado en la ODS </li>
-                <li> Trabajo en equipo</li>
-            </ul>
-            </article>
-    </main>
-    <!--PIE DE PAGINA-->
-    <footer>
-        <p>&copy; 2024 TITA FA. Todos los derechos reservados.</p>
-        <address> Cancún, Quintana Roo, México </address>
-    </footer>
+            <h3>Niveles de Dominio </h3>
+            <div>
+                <label> HTML5 </p>
+                    <progress value="100" max="80"> 80% </progress>
+            </div>
+            <div>
+                <label> CSS </p>
+                    <progress value="100" max="60"> 60% </progress>
+            </div>
+            <div>
+                <label> JavaScript </p>
+                    <progress value="100" max="20"> 20% </progress>
+            </div>
+            <section>
+                <section id="contacto">
+                    <h2>Contáctame</h2>
+                    <form>
+                        <div class="Campos">
+                            <label>Nombre Completo</label>
+                            <input type="text" value="" placeholder="Nombre Completo" required />
+                        </div>
+                        <div class="Campos">   
+                            <label>Correo Electrónico</label>
+                            <input type="email" value="" placeholder="ejemplo@gmail.com" />
+                        </div>
+                        <div class="campos">
+                            <label>Mensaje</label>
+                            <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        <div class="campos">
+                            <!--input type="button" value="Enviar Mensaje" /-->
+                            <button>Enviar </button>
+                        </div>
+                    </form>
+                </section>
+
+                <!--PIE DE PAGINA-->
+                <footer>
+                    <p>&copy; 2024 TITA FA. Todos los derechos reservados.</p>
+                    <address> Cancún, Quintana Roo, México </address>
+                </footer>
 </body>
 
 </html>
