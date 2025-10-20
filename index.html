@@ -41,49 +41,71 @@
                 <h3> ¿Sabías qué...? </h3>
                 <p> Actualmente estudio la carrera de Tecnologías de la Información e Innovación Digital</p>
             </aside>
-            
-        </section>
-        <h2>Experiencia Profesional</h2>
-        <article>
-            <section>
-                <h3>Proyecto Integrador I </h3>
-                <p>Lorem ipsum is simply dummy text of the printing</p>
-                <time> datetime= "2025-05>Mayo 2025" </time>- <time> datetime= "2025-07">Julio 2025 </time>
-                <ul>
-                    <li> Tecnologías.NET </li>
-                    <li> Gestión de Inventarios</li>
-                    <li> Basado en la ODS </li>
-                    <li> Trabajo en equipo</li>
-                </ul>
-        </article>
-        </section>
-        <article>
-            <section>
 
-                <h3>Proyecto Integrador II </h3>
-                <p>Lorem ipsum is simply dummy text of the printing</p>
-                <time> datetime= "2025-05>Mayo 2025" </time>- <time> datetime= "2025-07">Julio 2025 </time>
-                <ul>
-                    <li> Tecnologías.NET </li>
-                    <li> Gestión de Inventarios</li>
-                    <li> Basado en la ODS </li>
-                    <li> Trabajo en equipo</li>
-                </ul>
-        </article>
         </section>
-        <article>
-            <section>
+        <section id="experiencia">
+            <h2>Experiencia Profesional</h2>
+            <div id="lista-proyectos">
+                <article class="proyecto">
+                    <h3>Proyecto Integrador</h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                        since
+                        the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen
+                        book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting. </p>
+                    <time> Mayo 2025</time>- <time> Julio 2025</time>
+                    <ul>
+                        <li>Tecnologías.NET</li>
+                        <li>Gestión de inventarios</li>
+                        <li>Basado en las ODS</li>
+                        <li>Trabajo en equipo</li>
 
-                <h3>Proyecto Integrador III </h3>
-                <p>Lorem ipsum is simply dummy text of the printing</p>
-                <time> datetime= "2025-04> Abril 2025" </time>- <time> datetime= "2025-2" > Febrero 2025 </time>
-                <ul>
-                    <li> Tecnologías.NET </li>
-                    <li> Gestión de Inventarios</li>
-                    <li> Basado en la ODS </li>
-                    <li> Trabajo en equipo</li>
-                </ul>
-        </article>
+                    </ul>
+
+                </article>
+
+                <article class="proyecto">
+                    <h3>Proyecto Integrador II</h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                        since
+                        the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen
+                        book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting. </p>
+                    <time> Julio 2025</time>- <time> Septiembre 2025</time>
+                    <ul>
+                        <li>Tecnologías HTML, CSS, JavaScript</li>
+                        <li>Diseño de portafolio en página web</li>
+                        <li>Buenas prácticas de usabilidad</li>
+                        <li>Trabajo con Github</li>
+
+                    </ul>
+
+                </article>
+
+                <article class="proyecto">
+                    <h3>Proyecto Integrador III</h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                        since
+                        the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen
+                        book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting. </p>
+                    <time> Septiembre 2025</time>- <time> Octubre 2025</time>
+                    <ul>
+                        <li>Tecnologías Kotlin, Android Studio</li>
+                        <li>Aplicación móvil </li>
+                        <li>Notificaciones, recordatorios simples y organización</li>
+                        <li>Interfaz amigable</li>
+
+                    </ul>
+
+                </article>
+            </div>
         </section>
         <section id="habilidades">
             <h2>Habilidades y competencias</h2>
@@ -97,15 +119,15 @@
             <h3>Niveles de Dominio </h3>
             <div>
                 <label> HTML5 </p>
-                    <progress value="100" max="80"> 80% </progress>
+                    <progress max="100" value="80"> 80% </progress>
             </div>
             <div>
                 <label> CSS </p>
-                    <progress value="100" max="60"> 60% </progress>
+                    <progress max="100" value="60"> 60% </progress>
             </div>
             <div>
                 <label> JavaScript </p>
-                    <progress value="100" max="20"> 20% </progress>
+                    <progress max="100" value="20"> 20% </progress>
             </div>
             <section>
                 <section id="contacto">
@@ -115,7 +137,7 @@
                             <label>Nombre Completo</label>
                             <input type="text" value="" placeholder="Nombre Completo" required />
                         </div>
-                        <div class="Campos">   
+                        <div class="Campos">
                             <label>Correo Electrónico</label>
                             <input type="email" value="" placeholder="ejemplo@gmail.com" />
                         </div>
@@ -123,10 +145,41 @@
                             <label>Mensaje</label>
                             <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
                         </div>
+                       
                         <div class="campos">
+                            <label>Motivo de contacto</label>
+                            <select>
+                                <option> Cotización</option>
+                                <option> Prácticas profesionales</option>
+                                <option>otro</option>
+                            </select>
+                        </div>
+                        <div> class="campos">
+                            <input type="date" placeholder="aaaa-mm-dd" />
+                        </div>
+                        <div class="campos">
+                            <label> Modo de contacto</label>
+                            <input type="checkbox" came="canal" class="Opciones"> WhatsApp
+                            <input type="checkbox" came="canal" class="Opciones"> Correo Electrónico
+                        </div>
+                        <div class="campos">
+                            <label> ¿Es cliente? </label>
+                            <input type="radio" name="cliente" class="opciones"> Sí
+                            <input type="radio" name="cliente" class="opciones"> No
+                        </div>
+                        <div class="campos">
+                            <label>Número de colabodarodes </label>
+                            <input type="type="number" />
+                        </div>
+                        <div class="campos">
+                            <label> Enviar requerimientos </label>
+                            <input type="file" name="foto">
+                        </div>
+                         <div class="campos">
                             <!--input type="button" value="Enviar Mensaje" /-->
                             <button>Enviar </button>
                         </div>
+                        
                     </form>
                 </section>
 

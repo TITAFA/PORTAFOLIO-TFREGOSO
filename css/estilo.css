@@ -112,27 +112,36 @@ progress {
     background-color: white;
     border-top: solid 5px black;
 }
+#experiencia {
+  background-color: rgb(168, 168, 224);
+}
 
 #contacto label {
     font-size: 20px;
 }
 
-#contacto input,textarea {
+#contacto input,
+textarea {
     font-size: 20px;
     border: solid 1px black;
-    padding: 10px 
-    width:30%; 
+    padding: 10px width:30%;
 }
+
 .campos {
-clear: both;
-padding-top: 20px;}
+    clear: both;
+    padding-top: 20px;
+}
+
+    {
+    #contacto.opciones width: 5%;
+}
 
 #contacto button {
-   background-color:rgb(105, 42, 105) ;
-   color: white;
-   padding: 20px 30px;
-   border-radius: 10px;
-   border: none;
-   width: 200px; 
-   font-size: 20px;
+    background-color: rgb(105, 42, 105);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    font-size: 20px;
 }
